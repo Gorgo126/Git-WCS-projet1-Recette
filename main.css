@@ -1,0 +1,48 @@
+
+.titre {
+    position: absolute;
+    top: 25%;
+    left: 33%;
+    font-size: 65px;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.titre2 {
+    position: absolute;
+    top: 35%;
+    left: 33%;
+    font-size: 22px;
+    color: white;
+    
+}
+
+.bck_img {
+    height: 100%;
+    width: 100%;
+}
+
+
+.section_1 {
+    text-align: center;
+    color: white;
+    margin: 45px;
+    position: absolute;
+    top: 70%;
+}
+
+.section_2 {
+    text-align: center;
+    color: white;
+    margin: 45px;
+    position: absolute;
+    top: 90%;
+}
+
+.welcome_txt {
+    font-size: 25px;
+}
+
+.col-sm {
+    padding: 15px;
+}
