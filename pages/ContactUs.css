@@ -1,37 +1,65 @@
-/*Header*/
-.H1{
+/*HEADER*/
+.titreDeLaPage{
     text-align: center;
     color: aliceblue;
 }
 
+.container1{
+    margin:40px 150px;
+}
 
-.liste{
+.menuHamburger{
     display: flex;
     justify-content: center;
     appearance: button;
     
 }
 
-a{
+a.couleurTexteHamburger{
     font-weight: bold;
     width: 50%;
     text-align: center;
-    text-decoration: none !important;
+    text-decoration: none ;
     
-    color: rgba(255, 255, 255, 0.329) !important;
+    color: rgba(255, 255, 255, 0.329) ;
 }
-a:hover{
-    text-decoration: underline !important;
-    text-decoration-color: red !important;
-    color: rgb(255, 255, 255) !important;
+ a.couleurTexteHamburger:hover{
+    text-decoration: underline ;
+    text-decoration-color: red ;
+    color: rgb(255, 255, 255) ;
 }
+@media screen and (max-width:858px){
+    .container1{
+        margin-top:5px;
+        margin:20px;
+    }
+    a.couleurTexteHamburger{
+        width: 100%;
+    }
+}
+@media screen and (max-width:481px){
+  .hamburger{
+    
+    width: 35px;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0.329);
+    margin: 6px 10px;
+    
+}
+.menuHamburger:not(:first-child) {display: none}  
+  
+}
+/*HEADER FIN*/
 
 /*Body*/
+/*
 .body{
      background-image: url("../images/background.jpg")
 
   
 }
+
+
 .container{
     
    
@@ -59,7 +87,7 @@ a:hover{
     width:350px;
     
 }
-
+*/
 @media screen and (max-width: 600px){
     
 
@@ -73,3 +101,26 @@ a:hover{
     
     }
 }
+/*HEADER*/
+@media screen and (max-width:858px){
+    .container1{
+        margin-top:5px;
+        margin:20px;
+    }
+    a.couleurTexteHamburger{
+        width: 100%;
+    }
+}
+@media screen and (max-width:481px){
+  .hamburger{
+    
+    width: 35px;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0.329);
+    margin: 6px 10px;
+    
+}
+.liste:not(:first-child) {display: none}  
+  
+}
+/*HEADER FIN*/
