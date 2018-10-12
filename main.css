@@ -4,7 +4,7 @@
     color: aliceblue;
 }
 
-.container1{
+.container1000{
     margin:40px 150px;
 }
 
@@ -29,7 +29,7 @@ a.couleurTexteHamburger{
     color: rgb(255, 255, 255) ;
 }
 @media screen and (max-width:858px){
-    .container1{
+    .container1000{
         margin-top:5px;
         margin:20px;
     }
