@@ -1,0 +1,23 @@
+body{
+    background-color: #85DCB0;
+}
+
+#logo{
+    max-width: 20%;
+    display: inline;
+}
+
+.nav{
+    border-radius: 20px;
+    height: 45px;
+    width: 70%;
+    margin: auto;
+}
+
+.nav li {
+    margin: auto;
+}
+
+header{
+    background-image: url("images/background.jpg");
+}
