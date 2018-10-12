@@ -1,11 +1,7 @@
 body{
-    background-image: url("images/background.jpg");
+    /*  background-image: url("images/background.jpg");
     background-size: 100%;
-}
-
-#logo{
-    max-width: 20%;
-    display: inline;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 35%,rgba(254,254,254,1), white);*/
 }
 
 .nav{
@@ -19,10 +15,58 @@ body{
     margin: auto;
 }
 
-header{
+.wrapper{
+    position: absolute;
+    top: 400;
 }
 
 .container{
-    padding-bottom: 200px;
-    background: linear-gradient(to bottom, rgba(0,0,0,0) 35%,rgba(254,254,254,1), white);
+}
+
+.bck_img {
+    height: 100%;
+    width: 100%;
+}
+
+
+.titre {
+    position: absolute;
+    top: 25%;
+    left: 33%;
+    font-size: 65px;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.titre2 {
+    position: absolute;
+    top: 35%;
+    left: 33%;
+    font-size: 22px;
+    color: white;
+    
+}
+
+.section_1 {
+    text-align: center;
+    color: white;
+    margin: 45px;
+    position: absolute;
+    top: 70%;
+}
+
+.section_2 {
+    text-align: center;
+    color: white;
+    margin: 45px;
+    position: absolute;
+    top: 90%;
+}
+
+.welcome_txt {
+    font-size: 25px;
+}
+
+.col-sm {
+    padding: 15px;
 }

@@ -4,22 +4,42 @@
     color: aliceblue;
 }
 
+
+.liste{
+    display: flex;
+    justify-content: center;
+    appearance: button;
+    
+}
+
+a{
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+    text-decoration: none !important;
+    
+    color: rgba(255, 255, 255, 0.329) !important;
+}
+a:hover{
+    text-decoration: underline !important;
+    text-decoration-color: red !important;
+    color: rgb(255, 255, 255) !important;
+}
+
 /*Body*/
 .body{
-     background-image: url("/Users/Cyril/Desktop/WildCode/Projets/LeChaudron/Git-WCS-projet1-Recette/images/fondecran2.JPG")
+     background-image: url("/Users/Cyril/Desktop/WildCode/Projets/LeChaudron/Git-WCS-projet1-Recette/images/background.JPG")
 
   
 }
 .container{
     
-    border-radius:10px;
-    border-style: outset;
-    border-color:rgba(20, 20, 1, 0.151);
+   
     text-align:center;
     margin:auto;
-    box-shadow:0px 1px 10px rgba(20, 20, 1, 0.3);
+    
     margin-bottom:20px;
-    background-color:rgba(20, 20, 1, 0.3);
+    
     color: aliceblue;
 
 }
