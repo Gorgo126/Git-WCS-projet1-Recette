@@ -1,3 +1,56 @@
+/*CSS pour la nav-bar dans le HEADER*/
+.titreDeLaPage{
+    text-align: center;
+    color: aliceblue;
+}
+
+.container1{
+    margin:40px 150px;
+}
+
+.menuHamburger{
+    display: flex;
+    justify-content: center;
+    appearance: button;
+    
+}
+
+a.couleurTexteHamburger{
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+    text-decoration: none ;
+    
+    color: rgba(255, 255, 255, 0.329) ;
+}
+ a.couleurTexteHamburger:hover{
+    text-decoration: underline ;
+    text-decoration-color: red ;
+    color: rgb(255, 255, 255) ;
+}
+@media screen and (max-width:858px){
+    .container1{
+        margin-top:5px;
+        margin:20px;
+    }
+    a.couleurTexteHamburger{
+        width: 100%;
+    }
+}
+@media screen and (max-width:481px){
+  .hamburger{
+    
+    width: 35px;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0.329);
+    margin: 6px 10px;
+    
+}
+.menuHamburger:not(:first-child) {display: none}  
+  
+}
+/*FIN CSS pour la nav-bar HEADER*/
+
 body{
     /*  background-image: url("images/background.jpg");
     background-size: 100%;
@@ -44,6 +97,10 @@ a{
 }
 
 
+.back {
+    background-color: black;
+}
+
 .titre {
     position: absolute;
     top: 25%;
@@ -51,6 +108,7 @@ a{
     font-size: 65px;
     color: white;
     font-family: 'Permanent Marker', cursive;
+    text-shadow: 5px 5px 5px #000;
 }
 
 .titre2 {
@@ -59,6 +117,7 @@ a{
     left: 33%;
     font-size: 22px;
     color: white;
+    text-shadow: 5px 5px 5px #000;
     
 }
 
@@ -74,15 +133,32 @@ a{
     text-align: center;
     color: white;
     margin: 45px;
+    margin-top:75px;
     position: absolute;
     top: 90%;
 }
 
 .welcome_txt {
     font-size: 25px;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 25px #ffffff;
+    background-color: hsla(120, 60%, 70%, 0.3);
 }
 
 .col-sm {
     padding: 15px;
+}
+
+ /*HEAD */
+.footer {
+    border: 1px solid;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin: 25px;
+    box-shadow: 5px 5px 25px #ffffff;
+    background-color: hsla(120, 60%, 70%, 0.3);
 }
 
