@@ -1,15 +1,17 @@
 /*Header*/
-h1{
+.H1{
     text-align: center;
-    color: antiquewhite;
+    color: aliceblue;
 }
 
 /*Body*/
-body{
-    background-image: url("/Users/Cyril/Desktop/WildCode/Projets/LeChaudron/Git-WCS-projet1-Recette/images/fondecran2.JPG")
+.body{
+     background-image: url("/Users/Cyril/Desktop/WildCode/Projets/LeChaudron/Git-WCS-projet1-Recette/images/fondecran2.JPG")
+
+  
 }
 .container{
-    width:500px;
+    
     border-radius:10px;
     border-style: outset;
     border-color:rgba(20, 20, 1, 0.151);
@@ -20,4 +22,34 @@ body{
     background-color:rgba(20, 20, 1, 0.3);
     color: aliceblue;
 
+}
+.email .NomPrnom {
+    width: auto;
+    margin-left:10px;
+    margin-right: 10px; 
+}
+#NomPrenom, #Email, #messageclient{
+    width:450px;
+    font-size: 1em;
+    margin-left:10px;
+    margin-right: 10px;
+}
+#Envoyer{
+    display: inline;
+    width:350px;
+    
+}
+
+@media screen and (max-width: 600px){
+    
+
+    #NomPrenom, #Email, #liste, #messageclient{
+        width:150px;
+        
+    }
+    #Envoyer{
+       
+        width:100px;
+    
+    }
 }
