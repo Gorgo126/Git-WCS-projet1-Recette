@@ -12,14 +12,7 @@
     
 }
 
-a{
-    font-weight: bold;
-    width: 50%;
-    text-align: center;
-    text-decoration: none !important;
-    
-    color: rgba(255, 255, 255, 0.329) !important;
-}
+
 a:hover{
     text-decoration: underline !important;
     text-decoration-color: red !important;
