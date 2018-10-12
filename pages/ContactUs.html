@@ -8,36 +8,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="ContactUs.css" />
     <script src="main.js"></script>
+    
 </head>
 
-<body>
+<body class="body">
     <header>
-        <h1>Contact Us</h1>
+        <h1 class="H1">Contact Us</h1>
     </header>
     <div class="Contactus">
 
         <div class="container">
             <div class="row"></div>
-            
+
             <p class="texte">Avec ce formulaire, nous offrons la possibilité de rajouter vos propres recettes sur
                 le site, ces recettes seront tester par notre équipe de cuisinier avant d'être ajouter. </p>
 
 
-            <p> <input type="text" name="NomPrenom" id="NomPrenom" placeholder="👱🏻Nom et Prenom : "> </p>
-            <p> <input type="text" name="AdresseMail" id="Email" placeholder="@ : "> </p>
-            <p><select name="ListeDesChoix" id="liste">
-                <option value="">Proposer une recette</option>
-                <option value="">Un problème à nous signaler ?</option>
-                <option value="">NIKEMOUK</option>
-                <option value="">NIKBOSTRAP</option>
-                <option value="">#LAPUTE</option>
-            </select> </p>
+            <p class="NomPrnom"> <input type="text" name="NomPrenom" id="NomPrenom" placeholder="👱🏻Nom et Prenom : ">
+            </p>
+            <p class="email"> <input type="text" name="AdresseMail" id="Email" placeholder="@ : "> </p>
+            <select name="SelectionRecette" id="option">
+                <option value="">Selectionne la catégorie de la recette</option>
+                <option value="Salé">Salé</option>
+                <option value="Sucré">Sucré</option>
+                <option value="elle n'y figure pas">elle n'y figure pas</option>
+            </select>
             <p><textarea name="Message" id="messageclient" cols="50" rows="20" placeholder="Votre Message"></textarea></p>
-            <p> <input type="button" value="Envoyer"></p>
+            <p> <input type="button" value="Envoyer" id="Envoyer"></p>
         </div>
-        
+
     </div>
 
 </body>
 
 </html>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
