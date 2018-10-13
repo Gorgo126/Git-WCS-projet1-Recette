@@ -52,9 +52,8 @@ a.couleurTexteHamburger{
 /*FIN CSS pour la nav-bar HEADER*/
 
 body{
-    /*  background-image: url("images/background.jpg");
+    background-image: url("images/background.jpg");
     background-size: 100%;
-    background: linear-gradient(to bottom, rgba(0,0,0,0) 35%,rgba(254,254,254,1), white);*/
 }
 
 .nav{
@@ -66,6 +65,21 @@ body{
 
 .nav li {
     margin: auto;
+}
+
+.liste{
+    display: flex;
+    justify-content: center;
+    appearance: button;
+    
+}
+a{
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+    text-decoration: none !important;
+    
+    color: rgba(255, 255, 255, 0.329) !important;
 }
 
 .wrapper{
@@ -86,15 +100,23 @@ body{
     background-color: black;
 }
 
-.titre {
-    position: absolute;
+
+.bloc_titre {
+
+    width: 50%;
+    text-align: center;
     top: 25%;
-    left: 33%;
+    margin: auto;
+}
+
+.titre {
+
     font-size: 65px;
     color: white;
     font-family: 'Permanent Marker', cursive;
     text-shadow: 5px 5px 5px #000;
 }
+
 
 .titre2 {
     position: absolute;
@@ -107,10 +129,10 @@ body{
 }
 
 .section_1 {
+    width: 50%;
+    margin: auto;
     text-align: center;
     color: white;
-    margin: 45px;
-    position: absolute;
     top: 70%;
 }
 
@@ -119,7 +141,7 @@ body{
     color: white;
     margin: 45px;
     margin-top:75px;
-    position: absolute;
+    
     top: 90%;
 }
 
@@ -136,6 +158,7 @@ body{
     padding: 15px;
 }
 
+ /*HEAD */
 .footer {
     border: 1px solid;
     color: #ffffff;
@@ -145,3 +168,4 @@ body{
     box-shadow: 5px 5px 25px #ffffff;
     background-color: hsla(120, 60%, 70%, 0.3);
 }
+
