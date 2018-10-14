@@ -51,10 +51,13 @@ a.couleurTexteHamburger{
 }
 /*FIN CSS pour la nav-bar HEADER*/
 
-body{
+
+
+ body{
     background-image: url("images/background.jpg");
     background-size: 100%;
 }
+
 
 .nav{
     border-radius: 20px;
