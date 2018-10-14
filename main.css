@@ -51,14 +51,62 @@ a.couleurTexteHamburger{
 }
 /*FIN CSS pour la nav-bar HEADER*/
 
+/*Fade in BOX (Begin)*/
 
+.imageBOX {
+    opacity: 1;
+    display: block;
+    height: 300px;
+    width: 200px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middleBOX {
+    transition: 1.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .containerBOX:hover .imageBOX {
+    opacity: 0.6;
+  }
+  
+  .containerBOX:hover .middleBOX {
+    opacity: 1;
+  }
+  
+  .textBOX {
+    background-color: #4CAF50;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Permanent Marker', cursive;
+    padding: 16px 32px;
+  }
+
+  .textBOX2 {
+    background-color: #4CAF50;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Permanent Marker', cursive;
+    padding: 3px 5px;
+    margin-top: 3px;
+  }
+
+/*Fade in BOX (End)*/
 
 
  body{
     background-image: url("images/background.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-    background-color: #000;
+    background-color: #000
 }
 
 
