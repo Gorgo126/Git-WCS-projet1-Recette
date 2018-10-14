@@ -53,9 +53,12 @@ a.couleurTexteHamburger{
 
 
 
+
  body{
     background-image: url("images/background.jpg");
     background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #000;
 }
 
 
@@ -90,8 +93,6 @@ a{
     top: 400;
 }
 
-.container{
-}
 
 .bck_img {
     height: 100%;
@@ -110,6 +111,7 @@ a{
     text-align: center;
     top: 25%;
     margin: auto;
+    margin-top: 15%;
 }
 
 .titre {
@@ -123,8 +125,8 @@ a{
 
 .titre2 {
     position: absolute;
-    top: 35%;
-    left: 33%;
+    top: 37%;
+    left: 34%;
     font-size: 22px;
     color: white;
     text-shadow: 5px 5px 5px #000;
@@ -136,7 +138,7 @@ a{
     margin: auto;
     text-align: center;
     color: white;
-    top: 70%;
+    margin-top: 10%;
 }
 
 .section_2 {
