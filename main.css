@@ -86,11 +86,8 @@ a{
 body{
     background-image: url("images/background.jpg");
     background-size: 100%;
-}
-
-
-.back {
     background-color: black;
+    background-repeat: no-repeat;
 }
 
 
