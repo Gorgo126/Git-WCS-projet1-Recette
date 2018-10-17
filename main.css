@@ -1,22 +1,26 @@
 /* CYRIL  CYRIL  CYRIL  CYRIL  CYRIL  CYRIL  CYRIL  CYRIL  CYRIL  CYRIL  CYRIL */
 
-/* CSS pour la nav-bar dans le HEADER*/
-.titreDeLaPage{
-    text-align: center;
-    color: aliceblue;
-}
+/*CSS pour la nav-bar dans le HEADER*/
 
-.container1{
-    margin:40px 150px;
+/*Mise en Page*/
+.container1000{
+    margin:20px 20px 40px 20px;
 }
-
 .menuHamburger{
+    width:20vh;
+    list-style-type: none;
+}
+.titreDeLaPage{
     display: flex;
     justify-content: center;
-    appearance: button;
-    
+    color: aliceblue;}
+.div-hamburger{
+    z-index: 3;
 }
 
+/*FIN mise en page*/
+
+/*Couleur et Police du menu*/
 a.couleurTexteHamburger{
     font-weight: bold;
     width: 50%;
@@ -30,34 +34,117 @@ a.couleurTexteHamburger{
     text-decoration-color: red ;
     color: rgb(255, 255, 255) ;
 }
+/*Fin couleur et police du menu*/
+
+@media screen and (min-width:530px){
+    .navBar{
+        display: flex;
+        flex-direction: row;
+        transform:translateX(0vh);
+        margin: 0%;
+        padding: 0px;
+    }
+    .div-hamburger{
+        transform:translateX(100vh);
+    }
+    .test{
+        display: flex;
+        justify-content:center;
+        appearance: button;
+        
+    }
+}
+
 @media screen and (max-width:858px){
-    .container1{
-        margin-top:5px;
-        margin:20px;
+    .container1000{
+        margin-top:20px;
     }
     a.couleurTexteHamburger{
         width: 100%;
     }
 }
-@media screen and (max-width:481px){
-    .hamburger{
+@media screen and (max-width:530px){
     
-    width: 35px;
-    height: 5px;
-    background-color: rgba(255, 255, 255, 0.329);
-    margin: 6px 10px;}
-    
-
-
-    .background_img2 {
-        display: none;
+    .test{
+        justify-content: flex-start;
+        width: 100vw;
+        
     }
-  }
+    .navBar {
+        position: fixed;
+        transform:translateX(-100vh);
+        z-index: 1;
+        
+    }
+    .div-hamburger{
+        transform:translateX(0vh);
+        display: inline-block;
+        cursor: pointer;
+        width:55px;
+    }
+    
+    .hamburger1, .hamburger2, .hamburger3{
+    
+        width: 35px;
+        height: 5px;
+        background-color: rgba(255, 255, 255, 0.329);
+        margin: 6px 10px;
+        transition: 0.4s;
+    }
+/*Quand on clique sur le menu*/
+    .tourneLeMenu .div-hamburger{
+        margin-top: 20px;
+        margin-bottom: 40px;
+        
+    }
+    .tourneLeMenu .hamburger1{
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+        transform: rotate(-45deg) translate(-9px, 6px) ;
+    }
 
-
-.menuHamburger:not(:first-child) {display: none}  
-  
+    .tourneLeMenu .hamburger2{
+        opacity: 0;
+    }
+    .tourneLeMenu .hamburger3{
+        -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+        transform: rotate(45deg) translate(-8px, -8px) ;
+    }
+    .tourneLeMenu .header{
+        z-index: 4;
+        padding: 0px;
+        
+    }
+    .tourneLeMenu .navBar {
+        
+        display: flex;
+        justify-content: center;
+        position: relative;
+        width: 100vw;
+        height: 50vh;
+        transform:translateX(0vh);
+        z-index: 1;
+        flex-direction: column;
+        margin-left: 35vw;
+        padding: 0px;
+        
+    }
+    .tourneLeMenu .container1000{
+        margin-top: 0px;
+    }
+    
+    .tourneLeMenu{
+        height: 100vh;
+            background-color: #000;
+            transition: all 0.3s ease-in;
+            
+    }
+    .tourneLeMenu .titreDeLaPage{
+        display: none;
+        justify-content: center;
+        color: aliceblue;}
+/*Fin quand on clique sur le menu*/
 }
+
 /*FIN CSS pour la nav-bar HEADER*/
 
 
