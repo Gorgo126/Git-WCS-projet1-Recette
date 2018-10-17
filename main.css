@@ -34,6 +34,9 @@ a.couleurTexteHamburger{
     text-decoration-color: red ;
     color: rgb(255, 255, 255) ;
 }
+a.active{
+    color: rgba(255, 0, 0, 0.616) ;
+}
 /*Fin couleur et police du menu*/
 
 @media screen and (min-width:530px){
@@ -185,9 +188,9 @@ a{
     font-weight: bold;
     width: 50%;
     text-align: center;
-    text-decoration: none !important;
+    text-decoration: none;
     
-    color: rgba(255, 255, 255, 0.329) !important;
+    color: rgba(255, 255, 255, 0.329);
 }
 
 
