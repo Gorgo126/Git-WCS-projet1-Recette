@@ -408,7 +408,7 @@ h2{
     top: 90%;
 }
 
-.section_2 div{
+.descRecettes{
     background-color: rgba(139,69,19, 0.4);
     padding-left: 5%;
     padding-right: 5%;
@@ -442,7 +442,7 @@ iframe {
 }
         
         /* DESCRIPTION DÉTAILL RECETTES*/
-.section_2 div:nth-child(1) {
+.descRecettes2 {
     font-family: 'Inconsolata', monospace;
     overflow: hidden;
     margin-left: 0px;
