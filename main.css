@@ -174,20 +174,65 @@ a.couleurTexteHamburger{
 }
 
 /*FIN CSS pour la nav-bar HEADER*/
-/*CONTACT US*/
+/*HEADER HEADER HEADHEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER */
+
+/*CONTACT US CONTACT US CONTACT US CONTACT US CONTACT US CONTACT US CONTACT US CONTACT US */
+.texteEntete{
+    display: flex;
+    justify-content: center;
+}
+.MessageServeur{
+    
+    color:aliceblue;
+    width: 75vw;
+    text-align: center;
+    margin-bottom : 40px;
+    margin-right: 0px;
+}
 .whoIs{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 15px;
 }
-.selectCategorie{
+.selectCategorie {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 15px;
+
+}
+#option, .categorie{
+    width: 30vw;
+    background-color: rgb(219, 219, 219);
+}
+#NomPrenom, #Email, #NomDelaRecette, #temps{
+    width: 30vw;
+    border-radius: 20px;
+    border-spacing: 10px;
+    text-indent: 10px;
+    background-color: rgb(219, 219, 219);
 }
 .laRecette{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 15px;
+    
+
 }
-/*HEADER HEADER HEADHEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER */
+#messageclient{
+    width: 75vw;
+    border-radius: 20px;
+    border-spacing: 10px;
+    text-indent: 10px;
+    background-color: rgb(219, 219, 219);
+}
+.messageUser, .buttonUser{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+/*CONTACT US CONTACT US CONTACT US CONTACT US CONTACT US CONTACT US CONTACT US CONTACT US */
+
+
 .body{
     background-image: url("images/background.jpg");
     background-size: 100%;
