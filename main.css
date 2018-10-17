@@ -7,13 +7,11 @@
     margin:20px 20px 40px 20px;
 }
 .menuHamburger{
-    width:20vh;
+    width:130px;
     list-style-type: none;
+    
 }
-.titreDeLaPage{
-    display: flex;
-    justify-content: center;
-    color: aliceblue;}
+
 .div-hamburger{
     z-index: 3;
 }
@@ -26,6 +24,7 @@ a.couleurTexteHamburger{
     width: 50%;
     text-align: center;
     text-decoration: none ;
+    font-size: 20px;
     
     color: rgba(255, 255, 255, 0.329) ;
 }
@@ -33,9 +32,6 @@ a.couleurTexteHamburger{
     text-decoration: underline ;
     text-decoration-color: red ;
     color: rgb(255, 255, 255) ;
-}
-a.active{
-    color: rgba(255, 0, 0, 0.616) ;
 }
 /*Fin couleur et police du menu*/
 
@@ -94,6 +90,16 @@ a.active{
         margin: 6px 10px;
         transition: 0.4s;
     }
+    
+    .background_img2 {
+        display: none;
+    }
+
+    .background_img3 {
+        display: none;
+    }
+
+
 /*Quand on clique sur le menu*/
     .tourneLeMenu .div-hamburger{
         margin-top: 20px;
@@ -152,14 +158,6 @@ a.active{
 
 
 
-
-
- body{
-    background-image: url("images/background.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-color: #000
-}
 
 .body_black {
 
@@ -314,18 +312,21 @@ a{
       transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
     }
   }
+  /*Scroll down icone (End)*/
 
 
 .background_img {
     position: absolute;
     top: 0;
     width: 100%;
+    z-index: -1;
 }
 
 .background_img2 {
     float: right;
+    width: 30%;
     margin-left: 70%;
-    top: 155%;    
+    top: 158%;    
     position: absolute;
 }
 
@@ -358,7 +359,7 @@ a{
     text-align: center;
     top: 25%;
     margin: auto;
-    margin-top: 15%;
+    margin-top: 10%;
     position: relative;
 }
 
@@ -445,7 +446,7 @@ a{
 }
 
 
-/* TEST VIDEO */
+/* Video background */
 
 
 #myVideo {
