@@ -78,18 +78,9 @@ a{
     font-weight: bold;
     width: 50%;
     text-align: center;
-    text-decoration: none !important;
-    
-    color: rgba(255, 255, 255, 0.329) !important;
 }
 
-.wrapper{
-    position: absolute;
-    top: 400;
-}
 
-.container{
-}
 
 .bck_img {
     height: 100%;
@@ -116,7 +107,6 @@ h2{
     text-align: center;
 }
 .titre {
-
     font-size: 65px;
     color: white;
     font-family: 'Permanent Marker', cursive;
@@ -153,7 +143,7 @@ h2{
     top: 90%;
 }
 
-.section_2 p{
+.section_2 div{
     background-color: rgba(139,69,19, 0.4);
     padding-left: 5%;
     padding-right: 5%;
@@ -181,14 +171,18 @@ iframe {
     height: calc(@video-width * 0.5813);
     }
 }
+
+.typoLisible{
+    font-family: 'Voltaire', sans-serif;
+}
         
         /* DESCRIPTION DÉTAILL RECETTES*/
-.section_2 p:nth-child(1) {
+.section_2 div:nth-child(1) {
     font-family: 'Inconsolata', monospace;
     overflow: hidden;
-    height: 450px;
     margin-left: 0px;
     padding: 0px;
+    max-height: 100%;
 }
 
 .welcome_txt {
