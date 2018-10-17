@@ -2,6 +2,7 @@
 .titreDeLaPage{
     text-align: center;
     color: aliceblue;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .container1{
@@ -109,6 +110,11 @@ a{
     margin: auto;
 }
 
+h2{
+    font-family: Charmonman;
+    color: #ffffff;
+    text-align: center;
+}
 .titre {
 
     font-size: 65px;
@@ -127,6 +133,9 @@ a{
     text-shadow: 5px 5px 5px #000;
     
 }
+.makeItColorFull{
+    color: rgb(204,204,0);
+}
 
 .section_1 {
     width: 50%;
@@ -141,8 +150,45 @@ a{
     color: white;
     margin: 45px;
     margin-top:75px;
-    
     top: 90%;
+}
+
+.section_2 p{
+    background-color: rgba(139,69,19, 0.4);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    margin-left: 3%;
+    font-family: 'Charmonman', cursive;
+    font-size: 25px;
+    max-height: 430px;
+    overflow-y: scroll;
+    border-radius: 15px 50px;
+    border: dashed 2px rgb(210,105,30);
+}
+        /* RATIO VIDÉO*/
+@video-width: 320px;
+
+iframe {  
+    width: 50vw; 
+    max-width: @video-width;
+    height: 28.13vw; 
+    border-radius: 25px;   
+}
+
+@media (min-width:@video-width) {
+    iframe {
+    height: calc(@video-width * 0.5813);
+    }
+}
+        
+        /* DESCRIPTION DÉTAILL RECETTES*/
+.section_2 p:nth-child(1) {
+    font-family: 'Inconsolata', monospace;
+    overflow: hidden;
+    height: 450px;
+    margin-left: 0px;
+    padding: 0px;
 }
 
 .welcome_txt {
@@ -158,7 +204,6 @@ a{
     padding: 15px;
 }
 
- /*HEAD */
 .footer {
     border: 1px solid;
     color: #ffffff;
