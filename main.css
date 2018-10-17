@@ -21,18 +21,36 @@
 /*Couleur et Police du menu*/
 a.couleurTexteHamburger{
     font-weight: bold;
-    width: 50%;
+    width: 100%;
     text-align: center;
     text-decoration: none ;
     font-size: 20px;
-    
     color: rgba(255, 255, 255, 0.329) ;
 }
  a.couleurTexteHamburger:hover{
     text-decoration: underline ;
-    text-decoration-color: red ;
     color: rgb(255, 255, 255) ;
 }
+
+.link_menu.active {
+    color: #fff;
+    font-style: italic;
+    position: relative;
+}
+
+.link_menu.active:after{
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    border-width: 0 0 1px;
+    border-bottom: 2px;
+    border-style: solid;
+    color: red;
+}
+
+
 /*Fin couleur et police du menu*/
 
 @media screen and (min-width:530px){
@@ -370,7 +388,7 @@ h2{
 }
 .titre {
     margin-top: 25%;
-    font-size: 65px;
+    font-size: 75px;
     color: white;
     font-family: 'Permanent Marker', cursive;
     text-shadow: 5px 5px 5px #000;
