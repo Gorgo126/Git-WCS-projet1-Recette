@@ -362,6 +362,11 @@ a{
     position: relative;
 }
 
+h2{
+    font-family: Charmonman;
+    color: #ffffff;
+    text-align: center;
+}
 .titre {
     margin-top: 25%;
     font-size: 65px;
@@ -381,6 +386,9 @@ a{
     font-family: 'Charmonman', cursive;
     
 }
+.makeItColorFull{
+    color: rgb(204,204,0);
+}
 
 .section_1 {
     width: 50%;
@@ -398,6 +406,48 @@ a{
     padding-top: 20px;
     
     top: 90%;
+}
+
+.section_2 div{
+    background-color: rgba(139,69,19, 0.4);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    margin-left: 3%;
+    font-family: 'Charmonman', cursive;
+    font-size: 25px;
+    max-height: 430px;
+    overflow-y: scroll;
+    border-radius: 15px 50px;
+    border: dashed 2px rgb(210,105,30);
+}
+        /* RATIO VIDÉO*/
+@video-width: 320px;
+
+iframe {  
+    width: 50vw; 
+    max-width: @video-width;
+    height: 28.13vw; 
+    border-radius: 25px;   
+}
+
+@media (min-width:@video-width) {
+    iframe {
+    height: calc(@video-width * 0.5813);
+    }
+}
+
+.typoLisible{
+    font-family: 'Voltaire', sans-serif;
+}
+        
+        /* DESCRIPTION DÉTAILL RECETTES*/
+.section_2 div:nth-child(1) {
+    font-family: 'Inconsolata', monospace;
+    overflow: hidden;
+    margin-left: 0px;
+    padding: 0px;
+    max-height: 100%;
 }
 
 .welcome_txt {
