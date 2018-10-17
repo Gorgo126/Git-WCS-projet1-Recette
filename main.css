@@ -203,6 +203,7 @@ a.couleurTexteHamburger{
 #option, .categorie{
     width: 30vw;
     background-color: rgb(219, 219, 219);
+    
 }
 #NomPrenom, #Email, #NomDelaRecette, #temps{
     width: 30vw;
@@ -234,7 +235,7 @@ a.couleurTexteHamburger{
 
 
 .body{
-    background-image: url("images/background.jpg");
+    /*background-image: url("images/background.jpg");*/
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: #000
