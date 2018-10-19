@@ -525,7 +525,9 @@ hr {
     -ms-animation:blink normal 4s infinite ease-in-out; /* IE */
     animation:blink normal 4s infinite ease-in-out; /* Opera and prob css3 final iteration */
 }
-
+.bg3_recette{
+    margin-top:200px;
+}
 
 .bloc_titre {
 
