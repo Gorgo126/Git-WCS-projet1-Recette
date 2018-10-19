@@ -87,6 +87,7 @@ a.couleurTexteHamburger{
         transform:translateX(0vh);
         margin: 0%;
         padding: 0px;
+        width:100vw
     }
     .navBar1{
         display: flex;
@@ -94,6 +95,7 @@ a.couleurTexteHamburger{
         transform:translateX(0vh);
         margin: 0%;
         padding: 0px;
+        width: 100vw;
     }
     .div-hamburger{
         transform:translateX(100vh);
