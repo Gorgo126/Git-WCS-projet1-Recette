@@ -17,6 +17,10 @@
     display: flex;
     justify-content: center;
 }
+.navBar1{
+    display: flex;
+    justify-content: center;
+}
 .div-hamburger{
     z-index: 3;
 }
@@ -90,6 +94,13 @@ a.couleurTexteHamburger{
         margin: 0%;
         padding: 0px;
     }
+    .navBar1{
+        display: flex;
+        flex-direction: row;
+        transform:translateX(0vh);
+        margin: 0%;
+        padding: 0px;
+    }
     .div-hamburger{
         transform:translateX(100vh);
     }
@@ -117,6 +128,12 @@ a.couleurTexteHamburger{
 
     }
     .navBar {
+        position: fixed;
+        transform:translateX(-200vh);
+        z-index: 1;
+
+    }
+    .navBar1 {
         position: fixed;
         transform:translateX(-200vh);
         z-index: 1;
@@ -181,6 +198,20 @@ a.couleurTexteHamburger{
         z-index: 1;
         flex-direction: column;
         margin-left: 30vw;
+        padding: 0px;
+
+    }
+    .tourneLeMenu .navBar1 {
+
+        display: flex;
+        justify-content: center;
+        position: relative;
+        width: 100vw;
+        height: 60vh;
+        transform:translateX(0vh);
+        z-index: 1;
+        flex-direction: column;
+        margin-left: 0vw;
         padding: 0px;
 
     }
