@@ -540,7 +540,7 @@ h2{
     margin-left: 3%;
     font-family: 'Charmonman', cursive;
     font-size: 25px;
-    max-height: 430px;
+    max-height: 58vh;
     overflow-y: scroll;
     border-radius: 15px 50px;
     border: dashed 2px rgb(210,105,30);
@@ -570,7 +570,7 @@ iframe {
     font-family: 'Inconsolata', monospace;
     overflow: hidden;
     margin-left: 0px;
-    padding: 0px;
+    padding: 10px;
     max-height: 100%;
 }
 
