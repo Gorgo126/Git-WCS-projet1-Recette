@@ -9,9 +9,14 @@
 .menuHamburger{
     width: 180px;
     list-style-type: none;
+    display: flex;
+    justify-content: center;
 
 }
-
+.navBar{
+    display: flex;
+    justify-content: center;
+}
 .div-hamburger{
     z-index: 3;
 }
@@ -107,7 +112,7 @@ a.couleurTexteHamburger{
     }
     .navBar {
         position: fixed;
-        transform:translateX(-100vh);
+        transform:translateX(-200vh);
         z-index: 1;
 
     }
@@ -165,11 +170,11 @@ a.couleurTexteHamburger{
         justify-content: center;
         position: relative;
         width: 100vw;
-        height: 50vh;
+        height: 60vh;
         transform:translateX(0vh);
         z-index: 1;
         flex-direction: column;
-        margin-left: 35vw;
+        margin-left: 30vw;
         padding: 0px;
 
     }
@@ -187,7 +192,18 @@ a.couleurTexteHamburger{
         display: none;
         justify-content: center;
         color: aliceblue;}
-
+       
+    .link_menu.active:after{
+        
+        color: rgba(0, 0, 0, 0)
+    }
+    a.active{
+        text-decoration: underline ;
+        text-decoration-color: red;
+    }
+    .chevron{
+        display:none;
+    }
 /*Fin quand on clique sur le menu*/
 }
 
