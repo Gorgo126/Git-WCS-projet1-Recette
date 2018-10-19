@@ -24,7 +24,9 @@
 .div-hamburger{
     z-index: 3;
 }
-
+.Lechaudron{
+    width: 100%;
+}
 /*FIN mise en page*/
 
 /*Couleur et Police du menu*/
@@ -535,10 +537,17 @@ hr {
     position: relative;
 }
 
-h2{
+h2.CACA{
     font-family: Charmonman;
     color: #ffffff;
     text-align: center;
+}
+h2.text-hanaa{
+    font-family: Charmonman;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 .titre {
     margin-top: 25%;
@@ -626,12 +635,19 @@ iframe {
 .etape_prepa{
     margin-bottom: 15px;
 }
-
-.welcome_txt {
+.welcome_txt{
+    font-family: 'Charmonman', cursive;
     font-size: 35px;
+}
+.lesMythes{
+    font-size: 25px;
+    font-family: "Arial";
+}
+.welcome_txt, .lesMythes {
+    
     line-height: 35px;
     text-shadow: 12px 12px 8px #000;
-    font-family: 'Charmonman', cursive;
+    
     border: 1px solid;
     padding: 20px;
     border-radius: 15px;
