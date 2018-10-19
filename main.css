@@ -504,6 +504,7 @@ h2{
 }
 .makeItColorFull{
     color: rgb(204,204,0);
+    font-family: 'Charmonman', cursive;
 }
 
 .section_1 {
@@ -523,7 +524,6 @@ h2{
 
     top: 90%;
 }
-
 .descRecettes{
     background-color: rgba(139,69,19, 0.4);
     padding-left: 5%;
