@@ -24,13 +24,7 @@
 .div-hamburger{
     z-index: 3;
 }
-.Lechaudron{
-    width: 100%;
-}
-.lesMythes{
-    font-family: "Arial";
-    font-size: 25px;
-}
+
 /*FIN mise en page*/
 
 /*Couleur et Police du menu*/
@@ -539,12 +533,10 @@ hr {
     position: relative;
 }
 
-h2.text-hanaa{
+h2{
     font-family: Charmonman;
     color: #ffffff;
     text-align: center;
-    margin-top:30px;
-    margin-bottom:20px;
 }
 .titre {
     margin-top: 25%;
@@ -628,13 +620,16 @@ iframe {
     padding: 10px;
     max-height: 100%;
 }
-.welcome_txt{
-    font-family: 'Charmonman', cursive;
-    font-size: 35px;
+
+.etape_prepa{
+    margin-bottom: 15px;
 }
-.welcome_txt, .lesMythes {
+
+.welcome_txt {
+    font-size: 35px;
     line-height: 35px;
     text-shadow: 12px 12px 8px #000;
+    font-family: 'Charmonman', cursive;
     border: 1px solid;
     padding: 20px;
     border-radius: 15px;
