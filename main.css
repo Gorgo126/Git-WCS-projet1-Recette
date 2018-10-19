@@ -195,6 +195,10 @@ a.couleurTexteHamburger{
 /*HEADER HEADER HEADHEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER */
 
 /*CONTACT US CONTACT US CONTACT US CONTACT US CONTACT US CONTACT US CONTACT US CONTACT US */
+.Contactus{ 
+    margin-top: 40vh;
+    width: 65vw;
+}
 .texteEntete{
     display: flex;
     justify-content: center;
@@ -210,12 +214,12 @@ a.couleurTexteHamburger{
 .whoIs{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 .selectCategorie {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 
 }
 #option, .categorie{
@@ -233,11 +237,12 @@ a.couleurTexteHamburger{
 .laRecette{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 15px;
-
+    margin-bottom: 25px;
+    
 
 }
 #messageclient{
+    height: 25vh;
     width: 75vw;
     border-radius: 20px;
     border-spacing: 10px;
@@ -247,7 +252,7 @@ a.couleurTexteHamburger{
 .messageUser, .buttonUser{
     display: flex;
     justify-content: center;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 /*CONTACT US CONTACT US CONTACT US CONTACT US CONTACT US CONTACT US CONTACT US CONTACT US */
 
