@@ -327,7 +327,15 @@ a{
 
 
 
-
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
 
 
 
@@ -490,7 +498,7 @@ a{
     text-align: center;
     top: 25%;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 35vh;
     position: relative;
 }
 
@@ -520,6 +528,7 @@ h2{
 }
 .makeItColorFull{
     color: rgb(204,204,0);
+    font-family: 'Charmonman', cursive;
 }
 
 .section_1 {
@@ -527,7 +536,7 @@ h2{
     margin: auto;
     text-align: center;
     color: white;
-    margin-top: 10%;
+    margin-top: 50vh;
 }
 
 .section_2 {
@@ -539,7 +548,6 @@ h2{
 
     top: 90%;
 }
-
 .descRecettes{
     background-color: rgba(139,69,19, 0.4);
     padding-left: 5%;
