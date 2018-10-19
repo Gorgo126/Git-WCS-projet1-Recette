@@ -590,6 +590,10 @@ iframe {
     max-height: 100%;
 }
 
+.etape_prepa{
+    margin-bottom: 15px;
+}
+
 .welcome_txt {
     font-size: 35px;
     line-height: 35px;
